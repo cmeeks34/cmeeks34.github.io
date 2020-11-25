@@ -5,7 +5,7 @@
         <title>title</title>
         <link rel="stylesheet" href="tms-welcome.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
         <script src="tms-welcome.js"></script>
         <script>var subDomain = document.location.ancestorOrigins[0]; console.log();</script>
     </head>
@@ -24,19 +24,42 @@
                     document.write('<a href="' + loc + '" target="_blank">Enter Your Organization\'s Basic Info</a>');
                 </script>
             </li>
-            <li><a href="/node/194/edit?destination=company_vehicle/list" target="_blank">Enter Your First Truck Details</a></li>
-            <li><a href="/node/195/edit?destination=pricing_zone/list" target="_blank">Enter Your Default Pricing</a></li>
-            <li><a href="/shop/new">Add a Customer Account</a></li>
+            <li>
+                <script>
+                    var loc = subDomain + "/node/194/edit?destination=company_vehicle/list";
+                    document.write('<a href="' + loc + '" target="_blank">Enter Your First Truck Details</a>');
+                </script>
+            </li>
+            <li>
+                <script>
+                    var loc = subDomain + "/node/195/edit?destination=pricing_zone/list";
+                    document.write('<a href="' + loc + '" target="_blank">Enter Your Default Pricing</a>');
+                </script>
+            </li>
+            <li>
+                <script>
+                    var loc = subDomain + "/shop/new";
+                    document.write('<a href="' + loc + '" target="_blank">Add a Customer Account</a>');
+                </script>
+            </li>
+            <li>
+                On Your Phone, Download Omadi Driver&nbsp;from the <a href="https://apps.apple.com/us/app/omadi-driver/id1381554881" target="_blank">App Store (iOS)</a> or <a href="https://play.google.com/store/apps/details?id=com.omadi.torch&amp;hl=en_US" target="_blank">Play Store (Android)</a>
+            </li>
+            <li>
+                <script>
+                    var loc = subDomain + "/dispatch/new";
+                    document.write('<a href="' + loc + '" target="_blank">Create Your First Job</a>');
+                </script>
+            </li>
+            <li>
+                <script>
+                    var loc = subDomain + "/dashboard/dispatch";
+                    document.write('<a href="' + loc + '" target="_blank">Dispatch the Job to Yourself</a>');
+                </script>
+            </li>
+            <li>
+                <a href="https://desk.zoho.com/portal/omadimobilemanagement/en/kb/articles/stand" target="_blank">Complete the Job on Your Phone</a>
+            </li>
         </ol>
     </body>
 </html>
-
-
-1.<a href="/setup/organization" target="_blank">Enter Your Organization&#39;s Basic Info</a><br />
-2. <a href="/node/194/edit?destination=company_vehicle/list" target="_blank">Enter Your First Truck Details</a><br />
-3.&nbsp;<a href="/node/195/edit?destination=pricing_zone/list" target="_blank">Enter Your Default Pricing</a><br />
-4.&nbsp;<a href="/shop/new">Add a Customer Account</a><br />
-5. On Your Phone, Download Omadi Driver&nbsp;from the&nbsp;<a href="https://apps.apple.com/us/app/omadi-driver/id1381554881" target="_blank">App Store (iOS)</a>&nbsp;or&nbsp;<a href="https://play.google.com/store/apps/details?id=com.omadi.torch&amp;hl=en_US" target="_blank">Play Store (Android)</a><br />
-6.&nbsp;<a href="/dispatch/new" target="_blank">Create Your First Job</a><br />
-7.&nbsp;<a href="/dashboard/dispatch" target="_blank">Dispatch the Job to Yourself</a><br />
-8.&nbsp;<a href="https://desk.zoho.com/portal/omadimobilemanagement/en/kb/articles/stand" target="_blank">Complete the Job on Your Phone</a></span>
