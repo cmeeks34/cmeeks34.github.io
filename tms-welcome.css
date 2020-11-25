@@ -1,0 +1,15 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+}
+h1 {
+    font-size: 32px;
+    color: #0B78E3;
+}
+h2 {
+    font-size: 18px;
+    color: #000;
+}
+.center {
+    text-align: center;
+}
