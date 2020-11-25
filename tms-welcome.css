@@ -6,10 +6,9 @@ body {
 }
 h1 {
     font-size: 32px;
-    color: #FFF;
+    color: #0B78E3;
     margin-bottom: 5px;
     margin-top: 5px;
-    background-color: #0B78E3;
     padding-bottom: 5px;
 }
 h2 {
@@ -71,4 +70,8 @@ input:checked + label::after {
     content: '-';
     right: 10px;
     top: 1px;
+}
+div.container {
+   float: left;
+    margin-top: -10px;
 }
