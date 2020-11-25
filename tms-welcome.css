@@ -1,15 +1,67 @@
 body {
     font-family: 'Barlow', sans-serif;
     font-size: 12px;
+    max-width: 600px;
+    margin: auto;
 }
 h1 {
     font-size: 32px;
     color: #0B78E3;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 h2 {
     font-size: 18px;
     color: #000;
+    font-style: italic;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
 }
 .center {
     text-align: center;
+}
+input {
+    display: none;
+}
+label {
+    display: block;
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    background: #0B78E3;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: ease .5s;
+    position: relative;
+}
+label:hover {
+    background: #122950;
+}
+.content {
+    padding: 10px 25px;
+    margin: 0 0 1px 0;
+}
+input+label+.content {
+    display: none;
+}
+input:checked+label+.content {
+    display: block;
+}
+label::after {
+    content: '+';
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    right: 10px;
+    top: 1px;
+}
+input:checked + label::after {
+    content: '-';
+    right: 14px;
+    top: 1px;
 }
